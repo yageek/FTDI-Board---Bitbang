@@ -1,0 +1,87 @@
+Cmp-Mod V01 Created by CvPCB (2010-03-30 SVN 2479)-final date = jeu. 22 avril 2010 17:08:43 CEST
+
+BeginCmp
+TimeStamp = /4BCF1B92;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BCF1B96;
+Reference = C5;
+ValeurCmp = 10uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BCF1AD5;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BCF1129;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BCF112F;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BCFF98D;
+Reference = J1;
+ValeurCmp = USB_2;
+IdModule  = USB_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BCF1B35;
+Reference = JP1;
+ValeurCmp = JP2E;
+IdModule  = jumper-JP2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BD06636;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BD06547;
+Reference = P1;
+ValeurCmp = CONN_5;
+IdModule  = SIL-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BCF110B;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BCF1115;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BCF2B04;
+Reference = U1;
+ValeurCmp = FT232RL;
+IdModule  = ftdichip-SSOP28DB;
+EndCmp
+
+EndListe

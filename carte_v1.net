@@ -1,0 +1,133 @@
+# EESchema Netlist Version 1.1 created  jeu. 22 avril 2010 17:08:43 CEST
+(
+ ( /4BCF1B92 SM0805 C4 0.1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /4BCF1B96 SM0603 C5 10uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /4BCF1AD5 SM0805 C6 0.1uF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4BCF1129 LED-0805 D1 LED
+  ( 1 N-000020 )
+  ( 2 N-000021 )
+ )
+ ( /4BCF112F LED-0805 D2 LED
+  ( 1 N-000024 )
+  ( 2 N-000019 )
+ )
+ ( /4BCFF98D USB_B J1 USB_2
+  ( 1 +5V )
+  ( 2 N-000001 )
+  ( 3 N-000026 )
+  ( 4 GND )
+ )
+ ( /4BCF1B35 jumper-JP2 JP1 JP2E
+  ( 1 +3.3V )
+  ( 2 /Power )
+  ( 3 +5V )
+ )
+ ( /4BD06636 SIL-3 K1 CONN_3
+  ( 1 /CBUS2 )
+  ( 2 /CBUS3 )
+  ( 3 /CBUS4 )
+ )
+ ( /4BD06547 SIL-5 P1 CONN_5
+  ( 1 /Power )
+  ( 2 /TX )
+  ( 3 /RX )
+  ( 4 /DTR )
+  ( 5 /CTS )
+ )
+ ( /4BCF110B SM0805 R1 1k
+  ( 1 +5V )
+  ( 2 N-000024 )
+ )
+ ( /4BCF1115 SM0805 R2 1k
+  ( 1 +5V )
+  ( 2 N-000020 )
+ )
+ ( /4BCF2B04 ftdichip-SSOP28DB U1 FT232RL
+  ( 1 /TX )
+  ( 2 /DTR )
+  ( 3 ? )
+  ( 4 /Power )
+  ( 5 /RX )
+  ( 6 ? )
+  ( 7 GND )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 /CTS )
+  ( 12 /CBUS4 )
+  ( 13 /CBUS2 )
+  ( 14 /CBUS3 )
+  ( 15 N-000026 )
+  ( 16 N-000001 )
+  ( 17 +3.3V )
+  ( 18 GND )
+  ( 19 ? )
+  ( 20 +5V )
+  ( 21 GND )
+  ( 22 N-000019 )
+  ( 23 N-000021 )
+  ( 24 ? )
+  ( 25 GND )
+  ( 26 GND )
+  ( 27 ? )
+  ( 28 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}

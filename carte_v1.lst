@@ -1,0 +1,35 @@
+eeschema (2010-03-30 SVN 2479)-final  >> Creation date: jeu. 22 avril 2010 09:24:38 CEST
+
+#Cmp ( ordre = Référence )
+| C4         0.1uF       ;             
+| C5         10uF        ;             
+| C6         0.1uF       ;             
+| D1         LED         ;             
+| D2         LED         ;             
+| J1         USB_2       ; VCC         
+| JP1        JP2E        ; jumper-JP2  
+| P1         CONN_6      ;             
+| P2         CONN_5      ;             
+| P3         CONN_5      ;             
+| R1         1k          ;             
+| R2         1k          ;             
+| U1         FT232RL     ;             
+#End Cmp
+
+#Cmp ( ordre = Valeur )
+| 0.1uF        C4        ;             
+| 0.1uF        C6        ;             
+| 10uF         C5        ;             
+| 1k           R1        ;             
+| 1k           R2        ;             
+| CONN_5       P2        ;             
+| CONN_5       P3        ;             
+| CONN_6       P1        ;             
+| FT232RL      U1        ;             
+| JP2E         JP1       ; jumper-JP2  
+| LED          D1        ;             
+| LED          D2        ;             
+| USB_2        J1        ; VCC         
+#End Cmp
+
+#End List
